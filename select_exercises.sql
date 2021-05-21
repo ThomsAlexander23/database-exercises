@@ -9,7 +9,7 @@ SELECT 'Pink Floyd albums that sold over 30 million copies' AS 'Query';
 SELECT record_name FROM albums WHERE artist = 'Pink Floyd';
 
 SELECT 'Year of The Beatles "Sgt. Pepper''s Lonely Hearts Club Band was released' AS 'Query';
-SELECT release_date FROM albums WHERE record_name ='Sgt. Pepper''s Lonely Hearts Club Band';
+SELECT release_date FROM albums WHERE record_name = 'Sgt. Pepper''s Lonely Hearts Club Band';
 
 SELECT 'Genre of the album Nevermind' AS 'Query';
 SELECT genre FROM albums WHERE record_name ='Nevermind';

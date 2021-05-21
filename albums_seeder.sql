@@ -26,7 +26,7 @@ USE codeup_test_db;
 --        ('Madonna', 'The Immaculate Collection', 1990, 'Pop, Dance', 19.4),
 --        ('The Beatles', 'Abbey Road', 1969, 'Rock', 14.4);
 
-
+TRUNCATE albums;
 -- USING SHEETS ('"&__&"')
 INSERT INTO albums (artist, record_name, release_date, sales, genre)
 VALUES ('Michael Jackson', 'Thriller', '1982', '66', 'Pop, post-disco, funk, rock'),
