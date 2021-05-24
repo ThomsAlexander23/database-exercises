@@ -13,6 +13,7 @@ CREATE TABLE IF NOT EXISTS albums (
     sales DOUBLE UNSIGNED NOT NULL,
     genre VARCHAR (100) NOT NULL,
     PRIMARY KEY (id)
+    UNIQUE (artist, record_name)
 );
 
 DESCRIBE albums;
